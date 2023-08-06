@@ -1,0 +1,38 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "store.js",
+  "scripts": {
+    "start": "set DEBUG=app:main && nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "bcrypt": "^5.1.0",
+    "bluebird": "^3.7.2",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^6.14.2",
+    "fastest-validator": "^1.17.0",
+    "helmet": "^6.1.5",
+    "ip": "^1.1.8",
+    "jalali-moment": "^3.3.11",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.5",
+    "mongoose-autopopulate": "^1.0.1",
+    "mongoose-timestamp": "^0.6.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "slug": "^8.2.2",
+    "ua-parser-js": "^1.0.35",
+    "winston": "^3.8.2"
+  }
+}
